@@ -24,7 +24,7 @@ html {
 
 }
 
-/* menu styles */
+/* Navigation Styles */
 nav{
     background-color: #AD8B73;
     height: 7vh;
@@ -49,7 +49,7 @@ nav a:hover{
     background-color:#E3CAA5;
 }
 
-/* Section Styles*/
+/* Body Styles*/
 
 .container {
     display: flex;
@@ -132,15 +132,16 @@ main{
 }
 
 
-.main-img, .secondary-imgs{
+.main-img, .secondary-imgs {
     display: flex;
     justify-content: center;
     gap:2vw;
     margin-bottom:2vw;
+    margin-top: 2vw;
 }
 
-figcaption {
-    place-items: center;
+img :hover {
+    background-color:#E3CAA5;
 }
 
 #contact-content{

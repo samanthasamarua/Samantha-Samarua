@@ -56,9 +56,9 @@ nav a:hover{
     justify-content: center;
     align-items: center;
     height: 50%;
-    margin:2%;
-    border:thick rgba(245,245,220, 0.7);
-    border-style: groove;
+    margin:1%;
+    border: 100px, solid, #E3CAA5;
+    border-style: outset;
     background-image: url("Images/Background.jpg");
 
 }
@@ -139,6 +139,26 @@ main{
     gap:2vw;
     margin-bottom:2vw;
 }
+
+figcaption {
+    place-items: center;
+}
+
+/* footer styling */
+footer{
+    background-color: #AD8B73;
+    text-decoration: none;
+    text-align: center;
+    color:#fff;
+    display: block;
+    padding:0.5%
+}
+
+.footer-text {
+    color:#fff;
+    font-size: 30px;
+}
+
 /* flex styles */
 
 @media screen and (min-width: 768px) {

@@ -56,9 +56,8 @@ nav a:hover{
     justify-content: center;
     align-items: center;
     height: 50%;
-    margin:1%;
-    border: 100px, solid, #E3CAA5;
-    border-style: outset;
+    border: 100px;
+    border-style: solid, #fff;
     background-image: url("Images/Background.jpg");
 
 }
@@ -142,6 +141,13 @@ main{
 
 figcaption {
     place-items: center;
+}
+
+#contact-content{
+    color:black;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Space Mono', monospace;
 }
 
 /* footer styling */

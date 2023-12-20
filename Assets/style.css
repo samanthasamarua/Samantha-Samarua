@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    
+}
+html {
+    scroll-behavior: smooth;
+}
+
+* body {
+    font-family: 'Space Mono', monospace;
+    min-height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-size: cover;
+    background-position: center;
+
+}
+
+/* menu styles */
+nav{
+    background-color: #AD8B73;
+    height: 7vh;
+}
+
+nav ul {
+    list-style-type: none;
+    padding:0%;
+
+}
+
+nav a {
+    text-decoration: none;
+    text-align: center;
+    color:#fff;
+    display: block;
+    padding: 10px;
+
+}
+
+nav a:hover{
+    background-color:#E3CAA5;
+}

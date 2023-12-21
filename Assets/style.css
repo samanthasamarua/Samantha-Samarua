@@ -59,7 +59,7 @@ nav a:hover{
     height: 50%;
     border: 100px;
     border-style: solid, #fff;
-    background-image: url("/Assets/Images/Background.jpg");
+    background-image: url("./Images/Background.jpg");
 
 }
 .header-text{

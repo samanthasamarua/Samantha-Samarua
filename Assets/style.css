@@ -1,4 +1,5 @@
-/* general styling */
+
+        /* general styling */
 
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Space+Mono&display=swap');
@@ -58,7 +59,7 @@ nav a:hover{
     height: 50%;
     border: 100px;
     border-style: solid, #fff;
-    background-image: url("Images/Background.jpg");
+    background-image: url("/Assets/Images/Background.jpg");
 
 }
 .header-text{
@@ -192,6 +193,7 @@ footer{
         nav li {
             flex: 1 1 0;
             font-size: 30px;
+        }
 
         body {
             font-size: 18px; 
@@ -254,4 +256,4 @@ footer{
         .footer-text {
             font-size: 24px;
         }
-    
+    }

@@ -205,45 +205,45 @@ footer{
             font-size: 30px;
 
         body {
-            font-size: 18px; /* Adjust font size for larger screens */
-            margin-bottom: 50px; /* Increase bottom margin for more space */
+            font-size: 18px; 
+            margin-bottom: 50px; 
         }
     
         .container {
-            height: 80vh; /* Adjust the height of the container */
+            height: 80vh;
         }
     
         .header-text {
-            margin-top: 5vh; /* Adjust margin top for header text */
-            padding: 5%; /* Increase padding for better readability */
+            margin-top: 5vh; 
+            padding: 5%;
         }
     
         .name {
-            font-size: 60px; /* Increase font size for the name */
+            font-size: 60px; 
         }
     
         .img_container {
-            margin: 10px; /* Adjust margins for image container */
+            margin: 10px; 
         }
     
         /* Main Section Styles */
         main {
-            padding: 5%; /* Increase padding for the main section */
+            padding: 5%; 
         }
     
         .page-section {
-            margin-left: 5vw; /* Adjust left margin for page sections */
-            gap: 5vw; /* Increase gap between elements */
+            margin-left: 5vw;
+            gap: 5vw;
         }
     
         .work-content {
-            width: 90vw; /* Adjust width for work content */
+            width: 90vw; 
         }
     
         .main-img,
         .secondary-imgs {
-            gap: 4vw; /* Adjust gap between images */
-            margin-bottom: 4vw; /* Adjust margins for images */
+            gap: 4vw; 
+            margin-bottom: 4vw;
             margin-top: 4vw;
         }
 
@@ -259,10 +259,10 @@ footer{
     
         /* Footer styling */
         footer {
-            padding: 1%; /* Increase padding for footer */
+            padding: 1%; 
         }
     
         .footer-text {
-            font-size: 24px; /* Adjust font size for footer text */
+            font-size: 24px;
         }
     

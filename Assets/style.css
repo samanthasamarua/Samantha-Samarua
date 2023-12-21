@@ -49,7 +49,7 @@ nav a:hover{
     background-color:#E3CAA5;
 }
 
-/* Body Styles*/
+/* Header Styles*/
 
 .container {
     display: flex;
@@ -101,16 +101,19 @@ nav a:hover{
 
 }
 
+/* Paragraph Styling*/
 p{
     color: black;
     font-style: italic;
 }
 
+/* Main Section Styles*/
 main{
     background-color: rgba(245,245,220, 0.7);
     padding: 2%;
 }
 
+/* Page Sections */
 .page-section{
     display:flex;
     justify-content: flex-start;
@@ -121,8 +124,8 @@ main{
 }
 
 .title-box{
-    min-width:107.83px; 
-    max-width:107.83px;
+    min-width:171.81px; 
+    max-width:102.81px;
     border-right: 5px solid burlywood;
 
 }
@@ -140,15 +143,26 @@ main{
     margin-top: 2vw;
 }
 
-img :hover {
-    background-color:#E3CAA5;
-}
-
 #contact-content{
     color:black;
     font-weight: bold;
     font-style: italic;
     font-family: 'Space Mono', monospace;
+}
+
+#hover{
+    cursor:grab;
+}
+
+.text-overlay {
+    position:absolute;
+    top:116%;
+    left: 57%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    padding:20px;
+    text-align: center;
+
 }
 
 /* footer styling */
@@ -179,3 +193,76 @@ footer{
 
     }
     }
+
+    @media screen and (min-width: 768px) {
+
+        nav ul {
+            display:flex;
+        }
+    
+        nav li {
+            flex: 1 1 0;
+            font-size: 30px;
+
+        body {
+            font-size: 18px; /* Adjust font size for larger screens */
+            margin-bottom: 50px; /* Increase bottom margin for more space */
+        }
+    
+        .container {
+            height: 80vh; /* Adjust the height of the container */
+        }
+    
+        .header-text {
+            margin-top: 5vh; /* Adjust margin top for header text */
+            padding: 5%; /* Increase padding for better readability */
+        }
+    
+        .name {
+            font-size: 60px; /* Increase font size for the name */
+        }
+    
+        .img_container {
+            margin: 10px; /* Adjust margins for image container */
+        }
+    
+        /* Main Section Styles */
+        main {
+            padding: 5%; /* Increase padding for the main section */
+        }
+    
+        .page-section {
+            margin-left: 5vw; /* Adjust left margin for page sections */
+            gap: 5vw; /* Increase gap between elements */
+        }
+    
+        .work-content {
+            width: 90vw; /* Adjust width for work content */
+        }
+    
+        .main-img,
+        .secondary-imgs {
+            gap: 4vw; /* Adjust gap between images */
+            margin-bottom: 4vw; /* Adjust margins for images */
+            margin-top: 4vw;
+        }
+
+        .text-overlay {
+            position:absolute;
+            top:169%;
+            left: 62%;
+            transform: translate(-50%, -50%);
+            background: #fff;
+            padding:20px;
+            text-align: center;
+        }
+    
+        /* Footer styling */
+        footer {
+            padding: 1%; /* Increase padding for footer */
+        }
+    
+        .footer-text {
+            font-size: 24px; /* Adjust font size for footer text */
+        }
+    
